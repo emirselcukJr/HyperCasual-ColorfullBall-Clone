@@ -24,6 +24,10 @@ public class BallScripts : MonoBehaviour
                                           transform.position.y,
                                           touch.deltaPosition.y * speed * Time.deltaTime);
             }
+            else if (touch.phase == TouchPhase.Ended)
+            {
+                rb.velocity = Vector3.zero;
+            }
         }
     }
 }
