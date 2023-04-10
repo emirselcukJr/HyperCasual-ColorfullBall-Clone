@@ -1,0 +1,7 @@
+Yapılacak Listesi :
+-top Kontrolü
+-Platformun sınırlarını belirle
+-Engel ve objeleri ekle.
+
+Yapılanlar :
++Platform ve Top oluştur.
